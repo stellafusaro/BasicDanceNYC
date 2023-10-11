@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/day_of_the_week"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/day_of_the_week"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="24dp"
+        android:paddingBottom= "24dp"
+        android:textColor= "#D486E1"
+        android:textStyle="bold"/>
+
+    <!-- Personal Notes:
+        gravity in text view centers the text in Text View
+        gravity_layout centers text view in its entirety
+        -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <Button
+            android:id="@+id/sunday_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@drawable/outline_button"
+            android:padding="10dp"
+            android:text="@string/sunday_button"
+            android:textColor = "#F0EBF1"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/monday_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@drawable/outline_button"
+            android:padding="10dp"
+            android:text="@string/monday_button"
+            android:textColor = "#F0EBF1"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/tuesday_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@drawable/outline_button"
+            android:padding="10dp"
+            android:text="@string/tuesday_button"
+            android:textColor = "#F0EBF1"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/wednesday_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@drawable/outline_button"
+            android:padding="10dp"
+            android:text="@string/wednesday_button"
+            android:textColor = "#F0EBF1"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/thursday_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@drawable/outline_button"
+            android:padding="10dp"
+            android:text="@string/thursday_button"
+            android:textColor = "#F0EBF1"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/friday_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@drawable/outline_button"
+            android:padding="10dp"
+            android:text="@string/friday_button"
+            android:textColor = "#F0EBF1"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/saturday_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/saturday_button"
+            android:textSize ="18sp"
+            android:padding = "10dp"
+            android:textColor="#F0EBF1"
+            android:background="@drawable/outline_button"
+            android:layout_margin="16dp"/>
+
+    </LinearLayout>
+</LinearLayout>
